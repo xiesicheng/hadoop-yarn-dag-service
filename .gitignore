@@ -1,0 +1,9 @@
+*.classpath
+*.project
+target/
+.idea/
+*.iml
+hadoop-client-modules/hadoop-client-api/dependency-reduced-pom.xml
+hadoop-client-modules/hadoop-client-minicluster/dependency-reduced-pom.xml
+cp_jars.sh
+hadoop-client-modules/hadoop-client-runtime/dependency-reduced-pom.xml
