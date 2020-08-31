@@ -91,7 +91,7 @@
     <spotbugs.version>3.1.0-RC1</spotbugs.version>
 
     <guava.version>11.0.2</guava.version>
-    <guice.version>4.0</guice.version>
+    <guice.version>4.2.3</guice.version>
     <joda-time.version>2.9.9</joda-time.version>
 
     <!-- Required for testing LDAP integration -->
@@ -1693,7 +1693,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
