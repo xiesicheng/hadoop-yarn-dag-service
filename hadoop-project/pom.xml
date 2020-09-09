@@ -49,7 +49,7 @@
     <xerces.jdiff.version>2.11.0</xerces.jdiff.version>
 
     <kafka.version>0.8.2.1</kafka.version>
-    <hbase.version>1.2.6</hbase.version>
+    <hbase.version>2.3.0</hbase.version>
     <hbase-compatible-hadoop.version>2.5.1</hbase-compatible-hadoop.version>
     <hbase-compatible-guava.version>11.0.2</hbase-compatible-guava.version>
 
@@ -1693,7 +1693,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				<Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/>
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
