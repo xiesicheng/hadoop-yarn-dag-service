@@ -35,7 +35,7 @@
 
     <failIfNoTests>false</failIfNoTests>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-    <jetty.version>9.4.33.v20201020</jetty.version>
+    <jetty.version>9.4.39.v20210325</jetty.version>
     <test.exclude>_</test.exclude>
     <test.exclude.pattern>_</test.exclude.pattern>
 
@@ -583,7 +583,7 @@
       <dependency>
         <groupId>commons-codec</groupId>
         <artifactId>commons-codec</artifactId>
-        <version>1.4</version>
+        <version>1.13</version>
       </dependency>
       <dependency>
         <groupId>commons-net</groupId>
