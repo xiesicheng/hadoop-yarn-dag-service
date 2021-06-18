@@ -85,8 +85,8 @@
     <protobuf.version>2.5.0</protobuf.version>
     <protoc.path>${env.HADOOP_PROTOC_PATH}</protoc.path>
 
-    <zookeeper.version>3.4.9</zookeeper.version>
-    <curator.version>2.12.0</curator.version>
+    <zookeeper.version>3.4.14</zookeeper.version>
+    <curator.version>4.3.0</curator.version>
     <findbugs.version>3.0.0</findbugs.version>
     <spotbugs.version>3.1.0-RC1</spotbugs.version>
 
@@ -1197,7 +1197,7 @@
       <dependency>
           <groupId>com.nimbusds</groupId>
           <artifactId>nimbus-jose-jwt</artifactId>
-          <version>4.41.1</version>
+          <version>8.21.1</version>
           <scope>compile</scope>
           <exclusions>
           <exclusion>
@@ -1290,7 +1290,7 @@
         <dependency>
           <groupId>org.apache.kerby</groupId>
           <artifactId>kerb-simplekdc</artifactId>
-          <version>1.0.1</version>
+          <version>2.0.1</version>
         </dependency>
         <dependency>
           <groupId>org.apache.geronimo.specs</groupId>
