@@ -49,7 +49,7 @@
     <xerces.jdiff.version>2.11.0</xerces.jdiff.version>
 
     <kafka.version>0.8.2.1</kafka.version>
-    <hbase.version>2.0.0</hbase.version>
+    <hbase.version>2.5.0</hbase.version>
     <hbase-compatible-hadoop.version>2.5.1</hbase-compatible-hadoop.version>
     <hbase-compatible-guava.version>11.0.2</hbase-compatible-guava.version>
 
