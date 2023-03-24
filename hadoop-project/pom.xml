@@ -1197,7 +1197,7 @@
       <dependency>
           <groupId>com.nimbusds</groupId>
           <artifactId>nimbus-jose-jwt</artifactId>
-          <version>4.41.1</version>
+          <version>9.0</version>
           <scope>compile</scope>
           <exclusions>
           <exclusion>
@@ -1693,7 +1693,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				&lt;Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
