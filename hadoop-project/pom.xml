@@ -35,7 +35,7 @@
 
     <failIfNoTests>false</failIfNoTests>
     <maven.test.redirectTestOutputToFile>true</maven.test.redirectTestOutputToFile>
-    <jetty.version>9.4.33.v20201020</jetty.version>
+    <jetty.version>9.4.51.v20230217</jetty.version>
     <test.exclude>_</test.exclude>
     <test.exclude.pattern>_</test.exclude.pattern>
 
@@ -1693,7 +1693,7 @@
               <target>${javac.version}</target>
               <compilerArguments>
                 <Xlint/>
-				&lt;Xlint:-unchecked/>
+				&lt;Xlint:-unchecked/&gt;
                 <Xmaxwarns>9999</Xmaxwarns>
               </compilerArguments>
             </configuration>
